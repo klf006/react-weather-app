@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 //API key and base search 
 const API = {
   key:"cc7581bc4d1e89b910f7d21fe45199dc",
-  base:"api.openweathermap.org/data/2.5/"
+  base:"https://api.openweathermap.org/data/2.5/"
 }
 
 //Date Builder for location box
