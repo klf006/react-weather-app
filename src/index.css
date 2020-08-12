@@ -6,18 +6,7 @@
 
 body {
   font-family: 'montseratt', sans-serif;
-}
-
-.App {
-  background-image: url('./assets/cold-bg.jpg');
-  background-size: cover;
-  background-position: bottom;
-  transition: 0.4s ease-out;
-
-}
-
-.App.warm {
-  background-image: url('./assets/warm-bg.jpg')
+  background-color: #313131;
 }
 
 main {
@@ -26,16 +15,28 @@ main {
   padding: 25px;  
 }
 
+.App {
+  background-image: url('./assets/cold-bg.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s ease-out;
+}
+
+.App.warm {
+  background-image: url('./assets/warm-bg.jpg')
+}
+
+
 .search-box {
   width: 100%;
   margin: 0 0 75px;
-  
 }
 
 .search-box .search-bar {
   display: block;
   width: 100%;
   padding: 15px;
+  text-align: center;
 
   appearance: none;
   background: none;
@@ -104,3 +105,4 @@ main {
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
+
